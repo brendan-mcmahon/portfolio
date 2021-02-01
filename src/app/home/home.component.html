@@ -1,0 +1,10 @@
+<div class="container">
+  <h1>Brendan McMahon</h1>
+
+  <div class="page-headers">
+    <h2 [ngClass]="{'selected': selectedPage === 'bio'}" (click)="selectedPage = 'bio'">Bio</h2>
+    <h2 [ngClass]="{'selected': selectedPage === 'projects'}" (click)="selectedPage = 'projects'">Projects</h2>
+  </div>
+  <app-projects *ngIf="selectedPage === 'projects'"></app-projects>
+  <div *ngIf="selectedPage === 'bio'">Biography</div>
+</div>

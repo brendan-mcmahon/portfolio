@@ -1,0 +1,7 @@
+<div class="projects">
+  <button *ngFor="let project of projects" [ngClass]="{'selected' : project.name === selectedProject.name }" class="project" (click)="selectedProject = project">
+    {{project.name}}
+  </button>
+</div>
+
+<app-project [project]="selectedProject"></app-project>

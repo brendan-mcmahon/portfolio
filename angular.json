@@ -27,8 +27,9 @@
               "src/favicon.ico",
               "src/assets"
             ],
+            "extractCss": true,
             "styles": [
-              "src/styles.scss"
+                "src/styles2.scss"
             ],
             "scripts": []
           },
@@ -92,7 +93,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles2.scss"
             ],
             "scripts": []
           }
@@ -123,6 +124,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "portfolio"
+    }
+  },
+  "defaultProject": "portfolio",
+  "cli": {
+    "analytics": "3c1f9423-534f-416a-a237-1cc57d76fa2f"
+  }
 }

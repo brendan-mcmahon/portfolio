@@ -1,0 +1,8 @@
+<div class="projects">
+  <button *ngFor="let project of projects" [ngClass]="{'selected' : selectedProject && project.name === selectedProject.name }" class="project" (click)="setProject(project)">
+    {{project.name}}
+  </button>
+</div>
+<div [ngClass]="{'project-details': true, 'visible': showProject }">
+  <app-project2 [project]="selectedProject" (close)="showProject = false"></app-project2>
+</div>

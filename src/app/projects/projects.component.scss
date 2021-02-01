@@ -1,0 +1,32 @@
+@import '../../colors.scss';
+
+
+.projects {
+  display: flex;
+  // width: 100vw;
+  margin: 0px 8px;
+  justify-content: space-between;
+  .project {
+    cursor: pointer;
+    background-color: $sandy-brown;
+    padding: 12px;
+    font-family: header;
+    font-weight: bolder;
+    font-size: 2rem;
+    font-size: 1rem;
+    border: none;
+    color: $persian-green;
+    border: solid $orange-yellow-crayola 4px;
+    &:hover {
+      background-color: $burnt-sienna;
+      color: $orange-yellow-crayola;
+      outline: none;
+    }
+    &:focus {
+      outline: none;
+    }
+  }
+  .selected {
+    border: solid $burnt-sienna 4px;
+  }
+}

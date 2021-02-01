@@ -1,0 +1,8 @@
+<div *ngIf="project" class="container">
+  <div class="header"><h1>{{project.name}}</h1>
+  <button (click)="close.emit()"><fa-icon [icon]="times"></fa-icon></button></div>
+  <div>{{project.description}}</div>
+  <div class="buttons">
+    <a *ngFor="let link of project.links" href="{{link.url}}"  target="_blank">{{link.text}}</a>
+  </div>
+</div>

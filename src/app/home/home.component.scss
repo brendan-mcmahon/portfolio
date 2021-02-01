@@ -1,0 +1,41 @@
+@import '../../colors.scss';
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .page-headers {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    h2 {
+      cursor: pointer;
+      font-size: 4rem;
+      font-size: 3rem;
+      margin: 0;
+      margin-bottom: 16px;
+      padding: 0px 8px;
+      margin-right: 8px;
+      border: solid $orange-yellow-crayola 4px;
+
+      //rf version
+      border: solid $cg-blue 4px;
+      &:hover {
+        background-color: $persian-green;
+        color: $orange-yellow-crayola;
+        border: solid $persian-green 4px;
+
+        //rf version
+        background-color: $eggshell;
+        color: $eerie-black;
+        border: solid $eggshell 4px;
+      }
+    }
+    .selected {
+      border: solid $persian-green 4px;
+
+      //rf version
+      border: solid $cg-blue 4px;
+    }
+  }
+}

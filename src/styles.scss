@@ -1,1 +1,45 @@
-/* You can add global styles to this file, and also import other style files */
+@import './colors.scss';
+
+@font-face {
+  font-family: header;
+  src: url('./assets/fonts/GeosansLight.ttf');
+  src: url('./assets/fonts/Moon Flower.ttf');
+  src: url('./assets/fonts/Chapaza.ttf');
+}
+
+@font-face {
+  font-family: body;
+  src: url('./assets/fonts/Chapaza.ttf');
+  src: url('./assets/fonts/Oranienbaum.ttf');
+  src: url('./assets/fonts/GeosansLight.ttf');
+  src: url('./assets/fonts/Chapaza.ttf');
+}
+
+body {
+  background-color: $orange-yellow-crayola;
+  color: $burnt-sienna;
+  color: $persian-green;
+  font-family: body;
+
+  // retrofuture version
+  background-color: $eerie-black;
+  color: $cg-blue;
+}
+
+h1, h2, h3 {
+  font-family: header;
+}
+
+h1 {
+  color: $orange-yellow-crayola;
+  background-color: $burnt-sienna;
+  padding: 8px;
+  font-size: 3rem;
+  font-size: 2rem;
+  margin: 0;
+  cursor: default;
+
+  //retrofuture version;
+  background-color: $cg-blue;
+  color: $eerie-black;
+}
