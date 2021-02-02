@@ -1,61 +1,172 @@
 [
   {
-    "name": "Table Top Timer",
-    "links": [
-      {"text": "Try it out! (use mobile!)", "url": "http://www.tabletoptimer.com"},
-      {"text": "Front-End Repo", "url": "https://github.com/brendan-mcmahon/whose-turn"},
-      {"text": "Back-End Repo", "url": "https://github.com/brendan-mcmahon/whose-turn-api"}],
-    "description": "My wife and I are big board game fans. As our family has grown, the time and ability to play has shrunk. Any time we try to play, there are a million interruptions, other conversations happening, and general confusion. It occurred to me that I could solve a problem by making sure we always know the answer to the question: Whose turn is it? Using Socket.IO and an angular front-end, I devised a quick turn-tracking app that requires everyone to use their phone. In doing so, it made sense to track exactly how long each player is taking. In part because the cross-section of board game players and data-nerds is not insignificant, but also to resolve arguments about who has the worst Analysis Paralysis (or Talking Paralysis). The original problem has been solved with the added benefits of games moving much quicker, and everyone being distracted by their phones less!"
+      "description": "My wife and I are big board game fans. As our family has grown, the time and ability to play has shrunk. Any time we try to play, there are a million interruptions, other conversations happening, and general confusion. It occurred to me that I could solve a problem by making sure we always know the answer to the question: Whose turn is it? Using socket.IO and an angular front-end, I devised a quick turn-tracking app that requires everyone to use their phone. In doing so, it made sense to track exactly how long each player is taking. In part because the cross-section of board game players and data-nerds is not insignificant, but also to resolve arguments about who has the worst Analysis Paralysis (or Talking Paralysis). The original problem has been solved with the added benefits of games moving much quicker, and everyone being distracted by their phones less!",
+      "links": [
+          {
+              "text": "Try it out! (use mobile!)",
+              "url": "http://www.tabletoptimer.com"
+          },
+          {
+              "text": "Front-End Repo",
+              "url": "https://github.com/brendan-mcmahon/whose-turn"
+          },
+          {
+              "text": "Back-End Repo",
+              "url": "https://github.com/brendan-mcmahon/whose-turn-api"
+          }
+      ],
+      "name": "Table Top Timer",
+      "technologies": [
+        "Angular",
+        "NodeJs",
+        "Express",
+        "socket.IO",
+        "Heroku"
+      ]
   },
   {
-    "name": "Marital Bliss",
-    "links": [
-      {"text": "Try it out! (use mobile!)", "url": "https://marital-bliss-ui.herokuapp.com/"},
-      {"text": "Front-End Repo", "url": "https://github.com/brendan-mcmahon/marital-bliss-ui"},
-      {"text": "Back-End Repo", "url": "https://github.com/brendan-mcmahon/marital-bliss-api"}],
-    "description": "My wife and I are big board game fans. We attend GenCon every year, which happens to take place in our home city, Indianapolis. One of our first years attending, we found a booth manned by a married couple around our age with a small sign that said \"Marital Bliss.\" They had gamified their married lives and we were immediately hooked. The game takes place over week-long rounds, and our main complaint for the game was how easily we lost or damaged the cards, and how hard it was to track wins and rewards. Naturally, I thought this game was much better suited as an app that we could carry on our phones! This opened up a lot of other features as well - like custom cards, power-ups, and things like that. I built this with an node-expressjs server, postgresql for the data persistence, and angular PWA for the front-end."
+      "description": "My wife and I are big board game fans. We attend GenCon every year, which happens to take place in our home city, Indianapolis. One of our first years attending, we found a booth manned by a married couple around our age with a small sign that said \"Marital Bliss.\" They had gamified their married lives and we were immediately hooked. The game takes place over week-long rounds, and our main complaint for the game was how easily we lost or damaged the cards, and how hard it was to track wins and rewards. Naturally, I thought this game was much better suited as an app that we could carry on our phones! This opened up a lot of other features as well - like custom cards, power-ups, and things like that. I built this with an node-expressjs server, postgresql for the data persistence, and angular PWA for the front-end.",
+      "links": [
+          {
+              "text": "Try it out! (use mobile!)",
+              "url": "https://marital-bliss-ui.herokuapp.com/"
+          },
+          {
+              "text": "Front-End Repo",
+              "url": "https://github.com/brendan-mcmahon/marital-bliss-ui"
+          },
+          {
+              "text": "Back-End Repo",
+              "url": "https://github.com/brendan-mcmahon/marital-bliss-api"
+          }
+      ],
+      "name": "Marital Bliss",
+      "technologies": [
+        "Angular",
+        "Node.js",
+        "Express",
+        "PostgreSQL",
+        "Heroku"
+      ]
   },
   {
-    "name": "Welcome-to-Zoom",
-    "links": [
-      {"text": "Try it out!", "url": "https://welcome-to-zoom.herokuapp.com/"},
-      {"text": "Front-End Repo", "url": "https://github.com/brendan-mcmahon/welcome-to-zoom"},
-      {"text": "Back-End Repo", "url": "https://github.com/brendan-mcmahon/welcome-to-zoom-api"}],
-    "description": "My wife and I are big board game fans. My wife's favorite genre is \"roll and write\" - something we've forced upon our family and friends. One game that everyone seems to enjoy is called \"Welcome To...,\" but during quarantine, our ability to play with family and friends was, obviously, significantly diminished. We tried to play this game in particular over Zoom using an unfortunate system of camera angles and lighting. My gears started turning once I found out that there is not an app for this game - I could just scan these cards, and using Socket.IO with an Angular front-end, display one continuous game to anyone who wants to join. Because the platform allows, I was able to add features like triggering the next round, nudging other players to hurry it up, and broadcasting end-game conditions."
+      "description": "My wife and I are big board game fans. My wife's favorite genre is \"roll and write\" - something we've forced upon our family and friends. One game that everyone seems to enjoy is called \"Welcome To...,\" but during quarantine, our ability to play with family and friends was, obviously, significantly diminished. We tried to play this game in particular over Zoom using an unfortunate system of camera angles and lighting. My gears started turning once I found out that there is not an app for this game - I could just scan these cards, and using socket.IO with an Angular front-end, display one continuous game to anyone who wants to join. Because the platform allows, I was able to add features like triggering the next round, nudging other players to hurry it up, and broadcasting end-game conditions.",
+      "links": [
+          {
+              "text": "Try it out!",
+              "url": "https://welcome-to-zoom.herokuapp.com/"
+          },
+          {
+              "text": "Front-End Repo",
+              "url": "https://github.com/brendan-mcmahon/welcome-to-zoom"
+          },
+          {
+              "text": "Back-End Repo",
+              "url": "https://github.com/brendan-mcmahon/welcome-to-zoom-api"
+          }
+      ],
+      "name": "Welcome-to-Zoom",
+      "name": "Marital Bliss",
+      "technologies": [
+        "Angular",
+        "Node.js",
+        "Express",
+        "socket.io",
+        "Heroku"
+      ]
   },
   {
-    "name": "Summer",
-    "links": [],
-    "description": "In an attempt to get our finances under control, I started using You Need a Budget (YNAB) to keep track of our spending. However, I constantly found myself pulling out Excel to help subcategorize reciepts that contained multiple categories of items. Any time I use excel to do something consistently enough, I know I have the opportunity to turn this into a simple application. So, I did. This application is just an Angular front-end, and allows you to enter, categorize, add and remove taxes, and sum categories. This is one of those applications that I made strictly to make my life a little easier, and because I enjoy the process."
+      "description": "In an attempt to get our finances under control, I started using You Need a Budget (YNAB) to keep track of our spending. However, I constantly found myself pulling out Excel to help subcategorize reciepts that contained multiple categories of items. Any time I use excel to do something consistently enough, I know I have the opportunity to turn this into a simple application. So, I did. This application is just an Angular front-end, and allows you to enter, categorize, add and remove taxes, and sum categories. This is one of those applications that I made strictly to make my life a little easier, and because I enjoy the process.",
+      "links": [],
+      "name": "Summer",
+      "technologies": [
+        "Angular"
+      ]
   },
   {
-    "name": "Sanka",
-    "links": [
-      {"text": "Try it out!", "url": "https://sanka-ui.herokuapp.com/"},
-      {"text": "Front-End Repo", "url": "https://github.com/brendan-mcmahon/sanka"},
-      {"text": "Back-End Repo", "url": "https://github.com/brendan-mcmahon/sanka-api"}],
-    "description": "I work on an agile team working in two-week sprints. At every sprint-planning meeting, we attempt to settle on a \"Kaizen,\" an item we all agree to work on to improve the way we work as an agile team. We use other tools that allow us to secretly publish retrospective items, or vote on estimates for stories, but not one to create our Kaizen. In truth, this was a flimsy excuse to learn how to use Socket.io. It's not a super useful app and I don't expect much usage from it, but it was a lot of fun to make, and I did learn a lot making it."
+      "description": "I work on an agile team working in two-week sprints. At every sprint-planning meeting, we attempt to settle on a \"Kaizen,\" an item we all agree to work on to improve the way we work as an agile team. We use other tools that allow us to secretly publish retrospective items, or vote on estimates for stories, but not one to create our Kaizen. In truth, this was a flimsy excuse to learn how to use socket.io. It's not a super useful app and I don't expect much usage from it, but it was a lot of fun to make, and I did learn a lot making it.",
+      "links": [
+          {
+              "text": "Try it out!",
+              "url": "https://sanka-ui.herokuapp.com/"
+          },
+          {
+              "text": "Front-End Repo",
+              "url": "https://github.com/brendan-mcmahon/sanka"
+          },
+          {
+              "text": "Back-End Repo",
+              "url": "https://github.com/brendan-mcmahon/sanka-api"
+          }
+      ],
+      "name": "Sanka",
+      "technologies": [
+        "Angular",
+        "Node.js",
+        "Express",
+        "socket.io",
+        "Heroku"
+      ]
   },
   {
-    "name": "Mario",
-    "links": [
-      {"text": "Try it out!", "url": "https://brendan-mcmahon.github.io/mario-reviewer"},
-      {"text": "Repo", "url": "https://github.com/brendan-mcmahon/mario-reviewer"}],
-    "description": "If you're not familiar with Azure release pipelines, then this is going to be difficult to explain. These releases are all built using a UI in Azure DevOps (I am aware, however, that this is possible to implement using yaml files. For a variety of reasons, we are unable to do so at this time). Because of the nature of these pipelines, it can be hard to peer review changes, or even be confident in your own changes at times. I created this pipeline comparison tool, which is just an Angular front-end, that allows you to copy and paste the unreadable JSON files that Microsoft tries to pass as \"historical review,\" and breaks it down into a UI that allows you to more easily see what variables and tasks have been removed, edited, or added."
+      "description": "If you're not familiar with Azure release pipelines, then this is going to be difficult to explain. These releases are all built using a UI in Azure DevOps (I am aware, however, that this is possible to implement using yaml files. For a variety of reasons, we are unable to do so at this time). Because of the nature of these pipelines, it can be hard to peer review changes, or even be confident in your own changes at times. I created this pipeline comparison tool, which is just an Angular front-end, that allows you to copy and paste the unreadable JSON files that Microsoft tries to pass as \"historical review,\" and breaks it down into a UI that allows you to more easily see what variables and tasks have been removed, edited, or added.",
+      "links": [
+          {
+              "text": "Try it out!",
+              "url": "https://brendan-mcmahon.github.io/mario-reviewer"
+          },
+          {
+              "text": "Repo",
+              "url": "https://github.com/brendan-mcmahon/mario-reviewer"
+          }
+      ],
+      "name": "Mario",
+      "technologies": [
+        "Angular",
+        "GitHub Pages"
+      ]
   },
   {
-    "name": "Resum-o-matic",
-    "links": [
-      {"text": "Try it out!", "url": "https://resumomatic.herokuapp.com/"},
-      {"text": "Repo", "url": "https://github.com/brendan-mcmahon/ResumeBuilder"}],
-    "description": "A long time ago, I was updating my resume and found myself frustrated with how all of the word-processing software handled the formatting. I knew I could do better myself using some CSS and HTML, and I figured \"why not?\" So I created this Angular front-end that is essentially just a reactive form that takes in whatever information you'd like to include on your resume, and live formats it for you. You then have the option to save this (in local storage) or print it directly!"
+      "description": "A long time ago, I was updating my resume and found myself frustrated with how all of the word-processing software handled the formatting. I knew I could do better myself using some CSS and HTML, and I figured \"why not?\" So I created this Angular front-end that is essentially just a reactive form that takes in whatever information you'd like to include on your resume, and live formats it for you. You then have the option to save this (in local storage) or print it directly!",
+      "links": [
+          {
+              "text": "Try it out!",
+              "url": "https://resumomatic.herokuapp.com/"
+          },
+          {
+              "text": "Repo",
+              "url": "https://github.com/brendan-mcmahon/ResumeBuilder"
+          }
+      ],
+      "name": "Resum-o-matic",
+      "technologies": [
+        "Angular",
+        "Heroku"
+      ]
   },
   {
-    "name": "Picky Eaters",
-    "links": [
-      {"text": "Try it out! (use mobile!)", "url": "https://picky-eaters-web.herokuapp.com/"},
-      {"text": "Front-End Repo", "url": "https://github.com/brendan-mcmahon/picky-eaters-web"},
-      {"text": "Back-End Repo", "url": "https://github.com/brendan-mcmahon/picky-eaters-api"}],
-    "description": "A bad memory is maybe my greatest weakness. The primary way this affects me is when I'm eating at a restaurant, and I have to pester my wife with constant questions \"What did I have here last time?\" \"Did I like it?\" as well as demands like \"Remind me not to get this next time.\" To ease her burden, I decided I could just keep track of this myself, ideally in a user-friendly way. I created a PWA with Angular, and store the information in Firebase. It consists of a simple mad-lib style form: [Your name] [liked/didn't like] the [food item] at [restaurant name]. Now when I'm not sure if the Arroz con Pollo is the good kind or the weird kind at one of the many Mexican restaurants we frequent, I can just pull out my phone and know."
+      "description": "A bad memory is maybe my greatest weakness. The primary way this affects me is when I'm eating at a restaurant, and I have to pester my wife with constant questions \"What did I have here last time?\" \"Did I like it?\" as well as demands like \"Remind me not to get this next time.\" To ease her burden, I decided I could just keep track of this myself, ideally in a user-friendly way. I created a PWA with Angular, and store the information in Firebase. It consists of a simple mad-lib style form: [Your name] [liked/didn't like] the [food item] at [restaurant name]. Now when I'm not sure if the Arroz con Pollo is the good kind or the weird kind at one of the many Mexican restaurants we frequent, I can just pull out my phone and know.",
+      "links": [
+          {
+              "text": "Try it out! (use mobile!)",
+              "url": "https://picky-eaters-web.herokuapp.com/"
+          },
+          {
+              "text": "Front-End Repo",
+              "url": "https://github.com/brendan-mcmahon/picky-eaters-web"
+          },
+          {
+              "text": "Back-End Repo",
+              "url": "https://github.com/brendan-mcmahon/picky-eaters-api"
+          }
+      ],
+      "name": "Picky Eaters",
+      "technologies": [
+        "Angular",
+        "Node.js",
+        "Express",
+        "Firebase",
+        "Heroku"
+      ]
   }
 ]

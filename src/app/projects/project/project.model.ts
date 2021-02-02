@@ -1,6 +1,7 @@
 export class Project {
   name: string;
   links: Link[];
+  technologies: string[];
   description: string;
 }
 
