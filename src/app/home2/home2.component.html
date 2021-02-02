@@ -1,12 +1,21 @@
 <div class="container">
   <div class="title">
-    <h1>Brendan McMahon</h1>
+  <h1>Brendan McMahon</h1>
     <h3>is a full-stack developer.</h3>
+    <div class="social-icons">
+      <a href="https://www.linkedin.com/in/brendanmcmahon2/"  target="_blank"><fa-icon [icon]="linkedIn"></fa-icon></a>
+      <a href="https://github.com/brendan-mcmahon"  target="_blank"><fa-icon [icon]="gitHub"></fa-icon></a>
+    </div>
     <p>In his day job, he primarily works in Microsoft Stack - C#, Azure, and stuff like that.</p>
     <p>But in his free time, he loves creating micro-apps that help him in his every day life. Most of these use Angular as a front-end, some have nodejs/express back-ends, a few take advantage of socket.io, and most of them are a work-in-progress. </p>
     <p>Take a look around at the different applications and associated repos!</p>
+    <div class="buttons">
+      <button (click)="section = 'bio'" [ngClass]="{'active': section === 'bio'}">Bio</button>
+      <button (click)="section = 'projects'" [ngClass]="{'active': section === 'projects'}">Projects</button>
+    </div>
   </div>
   <div class="content-area">
-    <app-projects2></app-projects2>
+    <app-projects2 *ngIf="section === 'projects'"></app-projects2>
+    <app-bio *ngIf="section === 'bio'"></app-bio>
   </div>
 </div>

@@ -11,6 +11,7 @@ import { Projects2Component } from './projects2/projects2.component';
 import { Project2Component } from './projects2/project2/project2.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { CommonModule } from '@angular/common';
+import { BioComponent } from './bio/bio.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { CommonModule } from '@angular/common';
     HomeComponent,
     Home2Component,
     Projects2Component,
-    Project2Component
+    Project2Component,
+    BioComponent
   ],
   imports: [
     BrowserModule,

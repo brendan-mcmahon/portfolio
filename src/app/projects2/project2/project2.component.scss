@@ -5,6 +5,9 @@
   padding: 0px 16px;
   height: 100vh;
   color: $eggshell;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   .header {
     display: flex;
     justify-content: space-between;
